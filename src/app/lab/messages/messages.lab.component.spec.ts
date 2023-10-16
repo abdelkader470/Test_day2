@@ -39,7 +39,7 @@ describe('MessagesComponentForLab integration testing', () => {
     fixture.detectChanges();
 
     const template = debugElement.query(By.css('.msg'));
-    expect(template).toBeTruthy(); // Assuming .msg exists after setting messages
+    expect(template).toBeTruthy(); 
     expect(template.nativeElement.textContent).toContain(message);
   });
 });
