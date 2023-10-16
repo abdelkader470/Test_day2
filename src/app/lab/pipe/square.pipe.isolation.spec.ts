@@ -1,4 +1,4 @@
-import { SquarePipeForLab } from './square.pipe'; // Replace with the correct path to your SquarePipeForLab
+import { SquarePipeForLab } from './square.pipe'; 
 
 describe('SquarePipeForLab', () => {
   let pipe: SquarePipeForLab;
