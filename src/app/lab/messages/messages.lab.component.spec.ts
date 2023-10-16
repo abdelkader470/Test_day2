@@ -30,7 +30,7 @@ describe('MessagesComponentForLab integration testing', () => {
 
   it('should have an empty template', () => {
     const template = debugElement.query(By.css('.msg'));
-    expect(template).toBeFalsy(); // Assuming .msg doesn't exist initially
+    expect(template).toBeFalsy(); 
   });
 
   it('should display messages in the template after setting them', () => {
